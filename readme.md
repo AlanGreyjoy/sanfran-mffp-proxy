@@ -21,7 +21,7 @@ NODE_ENV=development
 PORT=3000
 ```
 
-- Running locally
+### Running locally
 
 To run the project locally, run `npm run dev`. The server will start on port 3000 by default.
 
@@ -43,6 +43,6 @@ To run the project locally, run `npm run dev`. The server will start on port 300
     - `where` - The query string to filter the results. Default is an empty string.
     - `order by` - The order in which to return the results. Default is `applicant ASC`.
 
-##### System Routes
+### System Routes
 
 - GET `/system/health` - Returns the health status of the server.
