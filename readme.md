@@ -34,14 +34,14 @@ To run the project locally, run `npm run dev`. The server will start on port 300
 
 ## API Endpoints
 
-##### Food Truck Routes
+### Food Truck Routes
 
-- GET `/food-trucks` - Returns a list of food trucks based on the query parameters provided.
-  -- Current Query Parameters
-  --- `limit` - The number of results to return. Default is 10.
-  --- `offset` - The number of results to skip. Default is 0.
-  --- `where` - The query string to filter the results. Default is an empty string.
-  --- `order by` - The order in which to return the results. Default is `applicant ASC`.
+- GET `/food-trucks` - Returns a list of food trucks based on the query parameters provided
+  - Current Query Parameters
+    - `limit` - The number of results to return. Default is 10.
+    - `offset` - The number of results to skip. Default is 0.
+    - `where` - The query string to filter the results. Default is an empty string.
+    - `order by` - The order in which to return the results. Default is `applicant ASC`.
 
 ##### System Routes
 
